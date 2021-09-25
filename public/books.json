@@ -1,0 +1,102 @@
+[
+    {
+        "id": "100",
+        "img": "https://fivebooks.com/app/uploads/2010/01/8998388.jpg",
+        "name": "Ekattorer Dinguli",
+        "writter": "Jahanara Imam",
+        "publisher": "Shandhani Prakashani",
+        "totalPage": "268",
+        "language": "Bangali",
+        "price": 150
+    },
+    {
+        "id": "200",
+        "img": "https://fivebooks.com/app/uploads/2010/01/006147875X.01.LZ_.jpg",
+        "name": "A Golden Age",
+        "writter": "Tahmima Anam",
+        "publisher": "John Murray",
+        "totalPage": "272",
+        "language": "English",
+        "price": 119
+    },
+    {
+        "id": "300",
+        "img": "https://fivebooks.com/app/uploads/2010/01/71ILek0FyCL-768x1200.jpg",
+        "name": "Pather Panchali",
+        "writter": "Bibhutibhushan Bandopadhyay",
+        "publisher": "Ranjan Prakashalay",
+        "totalPage": "320",
+        "language": "Bangali",
+        "price": 103
+    },
+    {
+        "id": "400",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Time_Machine_%28H._G._Wells%2C_William_Heinemann%2C_1895%29_title_page.jpg/330px-The_Time_Machine_%28H._G._Wells%2C_William_Heinemann%2C_1895%29_title_page.jpg",
+        "name": "The Time Machine",
+        "writter": "H. G. Wells",
+        "publisher": "William Heinemann",
+        "totalPage": "84",
+        "language": "English",
+        "price": 100
+    },
+    {
+        "id": "500",
+        "img": "https://fivebooks.com/app/uploads/2010/01/0140268529.01.LZ_.jpg",
+        "name": "Those Days",
+        "writter": "Sunil Gangopadhyay",
+        "publisher": "Ananda Publishers",
+        "totalPage": "220",
+        "language": "Bangali",
+        "price": 121
+    },
+    {
+        "id": "600",
+        "img": "https://fivebooks.com/app/uploads/2012/04/war-and-peace-hardback-768x1389.jpeg",
+        "name": "War and Peace",
+        "writter": "Leo Tolstoy",
+        "publisher": "The Russian Messenger",
+        "totalPage": "1225",
+        "language": "Russian",
+        "price": 949
+    },
+    {
+        "id": "700",
+        "img": "https://fivebooks.com/app/uploads/2010/11/0156001314.01.LZ_.jpg",
+        "name": "The Name of the Rose",
+        "writter": "Umberto Eco",
+        "publisher": "Bompiani",
+        "totalPage": "512",
+        "language": "Italian",
+        "price": 598
+    },
+    {
+        "id": "800",
+        "img": "https://fivebooks.com/app/uploads/books/BC_0441007317.jpg",
+        "name": "The Left Hand of Darkness",
+        "writter": "Ursula Le Guin",
+        "publisher": "Unknown",
+        "totalPage": "286",
+        "language": "English",
+        "price": 396
+    },
+    {
+        "id": "900",
+        "img": "https://fivebooks.com/app/uploads/2015/02/0307346617.01.LZ_.jpg",
+        "name": "World War Z: An Oral History of the Zombie War",
+        "writter": "Max Brooks",
+        "publisher": "Crown",
+        "totalPage": "342",
+        "language": "English",
+        "price": 770
+    },
+    {
+        "id": "1000",
+        "img": "https://fivebooks.com/app/uploads/2011/10/0312863551.01.LZ_.jpg",
+        "name": "The Moon is a Harsh Mistress",
+        "writter": "Robert A Heinlein",
+        "publisher": "G. P. Putnam's Sons",
+        "totalPage": "382",
+        "language": "English",
+        "price": 691
+    }
+]

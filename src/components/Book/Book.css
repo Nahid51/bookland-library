@@ -1,0 +1,33 @@
+.each-book{
+    height: 500px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+.book-img img{
+    width: 10rem;
+    height: 15rem;
+    margin: 10px 0;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%)}
+.btn-grad {
+   padding: 5px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5px;
+   font-size: 14px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
