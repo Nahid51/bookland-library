@@ -20,7 +20,6 @@ const Books = () => {
     }
     return (
         <div>
-            <h2>Collection of Books in My BookLand</h2>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-9'>

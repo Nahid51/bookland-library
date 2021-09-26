@@ -7,7 +7,7 @@
         "publisher": "Shandhani Prakashani",
         "totalPage": "268",
         "language": "Bangali",
-        "price": 150
+        "price": 320
     },
     {
         "id": "200",
@@ -17,7 +17,7 @@
         "publisher": "John Murray",
         "totalPage": "272",
         "language": "English",
-        "price": 119
+        "price": 435
     },
     {
         "id": "300",
@@ -27,7 +27,7 @@
         "publisher": "Ranjan Prakashalay",
         "totalPage": "320",
         "language": "Bangali",
-        "price": 103
+        "price": 556
     },
     {
         "id": "400",
@@ -37,7 +37,7 @@
         "publisher": "William Heinemann",
         "totalPage": "84",
         "language": "English",
-        "price": 100
+        "price": 250
     },
     {
         "id": "500",
@@ -47,7 +47,7 @@
         "publisher": "Ananda Publishers",
         "totalPage": "220",
         "language": "Bangali",
-        "price": 121
+        "price": 270
     },
     {
         "id": "600",
