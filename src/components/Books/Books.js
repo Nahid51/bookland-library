@@ -32,7 +32,6 @@ const Books = () => {
                                 ></Book>)
                             }
                         </div>
-
                     </div>
                     <div className='col-md-3'>
                         <BookCart

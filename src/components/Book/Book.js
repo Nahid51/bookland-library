@@ -19,11 +19,9 @@ const Book = (props) => {
                     <p><b>Language:</b> {language}</p>
                     <p><b>Price:</b> &#2547; {price}</p>
                 </div>
-
                 <div className='text-center'>
                     <button onClick={() => props.handleAddToCart(props.book)} className='btn-grad'><FontAwesomeIcon icon={faCartPlus} /> Add to Cart</button>
                 </div>
-
             </div>
         </div>
     );
