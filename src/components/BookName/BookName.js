@@ -4,7 +4,7 @@ const BookName = (props) => {
     const { name } = props.name;
     return (
         <div>
-            <p>Name: {name}</p>
+            <small>Book Name: {name}</small>
         </div>
     );
 };

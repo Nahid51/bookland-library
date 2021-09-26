@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
 import BookName from '../BookName/BookName';
+import './BookCart.css'
 
 const BookCart = (props) => {
     // console.log(props.addBookToCart);
@@ -11,7 +12,7 @@ const BookCart = (props) => {
     }
     return (
         <div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card bg-transparent cart-design" style={{ width: '18rem' }}>
                 <div className="card-body">
                     <h5 className="card-title"><FontAwesomeIcon icon={faBook} /> Book cart</h5>
                     <p className="card-text">Books Added: {props.addBookToCart.length}</p>
@@ -21,7 +22,9 @@ const BookCart = (props) => {
                             name={name}
                         ></BookName>)
                     }
-                    <a href={'https://silly-kalam-a96823.netlify.app/'} className="btn btn-primary">Buy Now</a>
+                    <div className='mt-3'>
+                        <a href={'https://silly-kalam-a96823.netlify.app/'} className="btn-grad">Buy Now</a>
+                    </div>
                 </div>
             </div>
         </div>

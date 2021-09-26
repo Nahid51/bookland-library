@@ -1,13 +1,6 @@
-.each-book{
-    height: 520px;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
-    margin-bottom: 20px;
-    line-height: 100%;
-}
-.book-img img{
-    width: 10rem;
-    height: 15rem;
-    margin: 10px 0;
+.cart-design{
+    font-weight: bold;
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
 }
 
 .btn-grad {background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%)}
@@ -21,6 +14,7 @@
    box-shadow: 0 0 20px #eee;
    border-radius: 5px;
    font-size: 14px;
+   text-decoration: none;
  }
 
  .btn-grad:hover {
@@ -28,4 +22,3 @@
    color: #fff;
    text-decoration: none;
  }
-
