@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
+import BookCart from '../BookCart/BookCart';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
+    const [addBookToCart, setAddBookToCart] = useState([]);
 
     useEffect(() => {
         fetch('./books.json')
@@ -10,10 +12,12 @@ const Books = () => {
             .then(data => setBooks(data))
     }, []);
 
-    const handleAddToCart = () => {
-        console.log('all ok');
-    }
 
+    const handleAddToCart = (addBook) => {
+        const newBookToCart = [...addBookToCart, addBook];
+        setAddBookToCart(newBookToCart);
+
+    }
     return (
         <div>
             <h2>Collection of Books in My BookLand</h2>
@@ -32,7 +36,9 @@ const Books = () => {
 
                     </div>
                     <div className='col-md-3'>
-
+                        <BookCart
+                            addBookToCart={addBookToCart}
+                        ></BookCart>
                     </div>
                 </div>
             </div>

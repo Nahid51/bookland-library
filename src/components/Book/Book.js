@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 
 const Book = (props) => {
-    console.log(props.book);
     const { img, name, writter, publisher, totalPage, language, price } = props.book;
     return (
         <div className='col-md-4'>
@@ -20,8 +19,9 @@ const Book = (props) => {
                     <p><b>Language:</b> {language}</p>
                     <p><b>Price:</b> &#2547; {price}</p>
                 </div>
+
                 <div className='text-center'>
-                    <button className='btn-grad'><FontAwesomeIcon icon={faCartPlus} /> Add to Cart</button>
+                    <button onClick={() => props.handleAddToCart(props.book)} className='btn-grad'><FontAwesomeIcon icon={faCartPlus} /> Add to Cart</button>
                 </div>
 
             </div>
