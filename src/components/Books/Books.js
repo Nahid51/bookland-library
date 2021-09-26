@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import BookCart from '../BookCart/BookCart';
 
+
 const Books = () => {
+    // set all the books information
     const [books, setBooks] = useState([]);
+    // set book name information
     const [addBookToCart, setAddBookToCart] = useState([]);
 
     useEffect(() => {
@@ -12,7 +15,7 @@ const Books = () => {
             .then(data => setBooks(data))
     }, []);
 
-
+    // set button for showing books information
     const handleAddToCart = (addBook) => {
         const newBookToCart = [...addBookToCart, addBook];
         setAddBookToCart(newBookToCart);

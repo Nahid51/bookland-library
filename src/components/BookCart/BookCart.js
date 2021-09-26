@@ -4,14 +4,14 @@ import BookName from '../BookName/BookName';
 import './BookCart.css'
 
 const BookCart = (props) => {
-    // console.log(props.addBookToCart);
     const { addBookToCart } = props;
+    // calculate total price
     let totalPrice = 0;
     for (const book of addBookToCart) {
         totalPrice = totalPrice + book.price;
     }
     return (
-        <div>
+        <div> {/* showing book cart information */}
             <div className="card bg-transparent cart-design" style={{ width: '18rem' }}>
                 <div className="card-body">
                     <h5 className="card-title"><FontAwesomeIcon icon={faBook} /> Book cart</h5>

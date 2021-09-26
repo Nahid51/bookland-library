@@ -5,8 +5,8 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Books></Books>
+      <Header></Header> {/* import header file */}
+      <Books></Books> {/* import books file */}
     </div>
   );
 }
